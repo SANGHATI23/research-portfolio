@@ -122,9 +122,9 @@ I am currently building a research trajectory around:
 ## Links
 
 - **GitHub:** [SANGHATI23](https://github.com/SANGHATI23)
-- **LinkedIn:** add your LinkedIn here
-- **ORCID:** add your ORCID here
-- **Email:** add your academic email here
+- **LinkedIn:** https://www.linkedin.com/in/sanghati-basu-33b3ab1a9/
+- **ORCID:** https://orcid.org/0009-0001-2437-773X
+- **Email:** sbasu23@uis.edu
 
 ---
 
