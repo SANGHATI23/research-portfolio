@@ -1,31 +1,134 @@
-# research-portfolio
-MS Healthcare Informatics — University of Illinois Springfield
-Research interests: Medical imaging AI, foundation model robustness, and trustworthy biomedical AI systems.
-My work focuses on applying artificial intelligence to biomedical datasets with an emphasis on model reliability, interpretability, and real-world deployment readiness.
+# Sanghati Basu — Research Portfolio
 
+Computational biomedical researcher working at the intersection of **genomics, medical imaging, machine learning, and translational bioinformatics**.
 
-SAM Robustness Audit — Brain MRI (BraTS) and CT Spleen Dataset
-Evaluation of the Segment Anything Model (ViT-B) for medical image segmentation across MRI and CT datasets. The project investigates segmentation robustness under simulated domain shifts including noise, blur, contrast changes, gamma correction, and resolution perturbations. Experiments are conducted on the BraTS brain tumor MRI dataset and the Medical Segmentation Decathlon spleen CT dataset. Model performance is evaluated using Dice coefficient, Intersection-over-Union, failure-rate analysis, and statistical testing.
-Repository:
-https://github.com/SANGHATI23/sam-brats-robustness-audit
+MS in Healthcare Informatics, University of Illinois Springfield
 
+---
 
-CHASE 2026 — LLM Bias Audit
-Development of an experimental framework to evaluate bias and amplification effects in large language models. The project benchmarks model responses across structured prompts to identify systematic bias patterns and amplification behaviors. The work aims to provide reproducible auditing methods for evaluating reliability and fairness in generative AI systems.
-Repository:
-https://github.com/SANGHATI23/CHASE2026-LLM-Bias-Audit
+## Research Focus
 
+My work focuses on building **reproducible, interpretable, and translationally relevant AI systems** for biomedical data.  
+I am especially interested in:
 
-ClinVar Variant Stability Analysis — Accountable Interpretation Pipeline
-Computational analysis of clinical variant interpretation stability using publicly available genomic datasets. The project investigates factors associated with variant reclassification risk, including review status, submission diversity, and evidence update timelines. An interpretable risk scoring framework is developed to prioritize variants that may require clinical re-evaluation.
-Repository:
-https://github.com/SANGHATI23/accountable-interpretation
+- Genomic interpretation reliability and variant reclassification risk
+- Cross-cohort reproducibility in transcriptomics
+- Medical imaging AI robustness under domain shift
+- Trustworthy evaluation of large language models in healthcare
+- Computational pipelines for translational bioinformatics
 
+---
 
-CRISPR Multi-Drug Resistance Resensitization Analysis
-Computational exploration of CRISPR-based strategies for reversing antimicrobial resistance mechanisms. The project investigates genomic targets associated with multi-drug resistance pathways and evaluates potential gene editing approaches for restoring antibiotic sensitivity in resistant bacterial strains.
-Repository:
-https://github.com/SANGHATI23/crispr-mdr-resensitization
+## Featured Projects
 
+### 1. ClinVar RiskKit / Accountable Interpretation
+**Focus:** genomic interpretation reliability, evidence stability, and variant reclassification risk.
 
-Across these projects, my research integrates medical imaging, genomic data analysis, and AI evaluation to study how machine learning systems behave when applied to complex biomedical data. A major focus of my work is understanding the reliability and robustness of AI models when confronted with domain shifts, uncertain biological evidence, and real-world clinical variability.
+This project investigates how ClinVar variants may become unstable over time using interpretable signals such as review status, submission diversity, conflict patterns, and evidence age. The long-term goal is to support more accountable genomic interpretation workflows.
+
+**Repository:** [accountable-interpretation](https://github.com/SANGHATI23/accountable-interpretation)
+
+**Key themes:** genomics, variant interpretation, interpretability, translational bioinformatics
+
+---
+
+### 2. Molecular Concordance in Cardiomyopathy
+**Focus:** cross-cohort transcriptomic reproducibility of clinically annotated cardiomyopathy genes.
+
+This work evaluates whether ClinVar-annotated pathogenic cardiomyopathy genes show reproducible phenotype-associated transcriptomic signatures across independent public cohorts. It introduces a structured concordance framework for translational genomics.
+
+**Related work:** proposal, review article, reproducibility framework
+
+**Key themes:** transcriptomics, cardiomyopathy, reproducibility, translational omics
+
+---
+
+### 3. CRISPR MDR Re-Sensitization Analysis
+**Focus:** computational CRISPR guide design for targeting antimicrobial resistance genes.
+
+This project explores CRISPR-based strategies for re-sensitizing multidrug-resistant bacteria by identifying high-quality guide RNAs against major resistance genes and ranking them using specificity-aware scoring.
+
+**Repository:** [crispr-mdr-resensitization](https://github.com/SANGHATI23/crispr-mdr-resensitization)
+
+**Key themes:** CRISPR, antimicrobial resistance, guide RNA design, computational biology
+
+---
+
+### 4. SAM Robustness Audit
+**Focus:** robustness evaluation of foundation models in medical image segmentation.
+
+This project audits the Segment Anything Model (ViT-B) on biomedical imaging datasets including BraTS brain MRI and spleen CT, testing segmentation performance under realistic perturbations such as blur, noise, contrast changes, gamma shifts, and resolution variation.
+
+**Repository:** [sam-brats-robustness-audit](https://github.com/SANGHATI23/sam-brats-robustness-audit)
+
+**Key themes:** medical imaging, robustness, segmentation, trustworthy AI
+
+---
+
+### 5. CHASE 2026 — LLM Bias Audit
+**Focus:** bias and amplification analysis in healthcare-oriented large language models.
+
+This project develops a reproducible evaluation framework for examining systematic bias, amplification, and fairness behaviors in LLM outputs using structured prompting and quantitative analysis.
+
+**Repository:** [CHASE2026-LLM-Bias-Audit](https://github.com/SANGHATI23/CHASE2026-LLM-Bias-Audit)
+
+**Key themes:** LLM evaluation, fairness, auditing, healthcare AI
+
+---
+
+## Methods and Tools
+
+**Programming & Analysis**
+- Python
+- R
+- SQL
+- pandas, NumPy, scikit-learn
+- Bioconductor / transcriptomics workflows
+
+**Biomedical AI Areas**
+- Genomic data analysis
+- Transcriptomic reproducibility
+- Medical image segmentation
+- CRISPR computational analysis
+- AI robustness and bias auditing
+
+**Research Practices**
+- Reproducible pipelines
+- Interpretable modeling
+- Cross-cohort validation
+- Translational framing
+
+---
+
+## Current Direction
+
+I am currently building a research trajectory around:
+
+- **ClinVar variant stability and predictive prioritization**
+- **Cross-cohort molecular concordance in cardiomyopathy**
+- **Interpretable ML for biomedical decision support**
+- **Trustworthy AI evaluation in high-stakes biomedical settings**
+
+---
+
+## Selected Outputs
+
+- Research abstract on molecular concordance of cardiomyopathy variants
+- Review article on molecular stability and translational alignment in genetic cardiomyopathy
+- ACS Spring 2026 presentation on CRISPR-mediated re-sensitization of multidrug-resistant bacteria
+
+---
+
+## Links
+
+- **GitHub:** [SANGHATI23](https://github.com/SANGHATI23)
+- **LinkedIn:** add your LinkedIn here
+- **ORCID:** add your ORCID here
+- **Email:** add your academic email here
+
+---
+
+## Goal of This Portfolio
+
+This portfolio brings together my work across **genomics, biomedical AI, translational omics, and trustworthy machine learning**.  
+It is intended as a research-facing overview for collaborators, PhD advisors, and teams interested in computational biomedicine.
