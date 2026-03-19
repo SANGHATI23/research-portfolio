@@ -57,7 +57,7 @@ This project explores CRISPR-based strategies for re-sensitizing multidrug-resis
 ### 4. SAM Robustness Audit
 **Focus:** robustness evaluation of foundation models in medical image segmentation.
 
-This project audits the Segment Anything Model (ViT-B) on biomedical imaging datasets including BraTS brain MRI and spleen CT, testing segmentation performance under realistic perturbations such as blur, noise, contrast changes, gamma shifts, and resolution variation.
+This project audits the Segment Anything Model (ViT-B) on biomedical imaging datasets including BraTS brain MRI, testing segmentation performance under realistic perturbations such as blur, noise, contrast changes, gamma shifts, and resolution variation.
 
 **Repository:** [sam-brats-robustness-audit](https://github.com/SANGHATI23/sam-brats-robustness-audit)
 
